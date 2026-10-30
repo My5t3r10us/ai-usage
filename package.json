@@ -1,0 +1,10 @@
+{
+  "name": "ai-usage",
+  "version": "1.0.0",
+  "description": "Dashboard local d'usage et de coûts pour Claude Code, Codex et Cursor",
+  "type": "module",
+  "bin": { "ai-usage": "./ai-usage.mjs" },
+  "scripts": { "start": "node ai-usage.mjs", "export": "node ai-usage.mjs --json ai-usage.json" },
+  "engines": { "node": ">=22.5" },
+  "license": "MIT"
+}
